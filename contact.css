@@ -62,12 +62,14 @@ h3{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .btn{
-background: #ee9ca7;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #ee9ca7;  
+background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  
+background: linear-gradient(to right, #ffdde1, #ee9ca7); 
 
   border: 1px solid rgb(180, 153, 153);
 }
+
+
 .big-texts {
   color:#a4133c;
   font-size: 35px;
@@ -93,6 +95,9 @@ h6,
 .h5,
 .h6 {
   font-weight: 100;
+}
+.lead{
+  text-transform: uppercase;
 }
 
 .big-text {
