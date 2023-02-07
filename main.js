@@ -1,13 +1,3 @@
-function changeImage() {
-    var image = document.getElementById('myImage');
-    if (image.src.match("bulbon")) {
-        image.src = "./corina-ardeleanu-sWlxCweDzzs-unsplash.jpg";
-    } else {
-        image.src = "./angelina-jollivet-mNEpmNiFdXs-unsplash.jpg";
-    }
-      
-}
-
 // Wrap every letter in a span
 var textWrapper = document.querySelector('.ml1 .letters');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
